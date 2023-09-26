@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always
+      continue-on-error: false
+      #data-locations: classpath:demo_data.sql
+
+security:
+  jwt:
+    secret: ZmdoZGdmaGVyZGdib2RmZ2JqcnRkbltoYltkZ2ZubWtjO2JtZDtrYm1kO2ZrZ2JmeDtiTUdGTUdrZWRtZmdr
+    access: 3600000
+    refresh: 2592000000

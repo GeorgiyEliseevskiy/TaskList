@@ -1,4 +1,4 @@
-package com.example.tasklist.web.dto.controller;
+package com.example.tasklist.web.controller;
 
 import com.example.tasklist.domain.task.Task;
 import com.example.tasklist.domain.user.User;
